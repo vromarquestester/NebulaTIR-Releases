@@ -1,20 +1,19 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.3.3",
+  "versao": "0.3.4",
   "canal": "estavel",
-  "publicado_em": "2026-09-15T13:30:08Z",
+  "publicado_em": "2026-09-15T14:13:03Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.3.3.zip",
+    "nome": "NebulaTIR_v0.3.4.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.3.3/NebulaTIR_v0.3.3.zip",
-    "sha256": "ff25018f8bcd50aac384da0c41bb38b7add75b154914f150c8e97f1af65f0f6a",
-    "tamanho": 15533850
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.3.4/NebulaTIR_v0.3.4.zip",
+    "sha256": "cb025674fd3a8e22d59cd89dacf6960685370b1502644389fdb9f31bc64c13f9",
+    "tamanho": 15535163
   },
   "changelog": [
-    "Chip de atualização na barra só com pendência (disponível, baixando, reinicie), em amarelo — igual ao Gerenciador; falha de rede não aparece mais na barra",
-    "Configurações mais larga; aba Sobre com rótulo e valor alinhados em colunas e o autor no rodapé"
+    "O chip \"Atualização\" da barra deixou de aparecer sempre: só com pendência"
   ]
 }
