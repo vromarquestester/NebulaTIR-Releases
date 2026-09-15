@@ -1,20 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.3.2",
+  "versao": "0.3.3",
   "canal": "estavel",
-  "publicado_em": "2026-09-14T14:52:51Z",
+  "publicado_em": "2026-09-15T13:30:08Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.3.2.zip",
+    "nome": "NebulaTIR_v0.3.3.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.3.2/NebulaTIR_v0.3.2.zip",
-    "sha256": "c382d20590f41709d5708194f25bd0068c00b03e223fcf918fa1ac6b78fef57b",
-    "tamanho": 15536347
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.3.3/NebulaTIR_v0.3.3.zip",
+    "sha256": "ff25018f8bcd50aac384da0c41bb38b7add75b154914f150c8e97f1af65f0f6a",
+    "tamanho": 15533850
   },
   "changelog": [
-    "O botao fixo da barra virou \"Configuracoes\", com as abas Atualizacao (verificar agora, automatico, pre-lancamentos, voltar versao) e Sobre (versao, pasta, vitrine, ultima verificacao).",
-    "Download da atualizacao tenta de novo em falha do proxy (504) ou queda de conexao, retomando de onde parou."
+    "Chip de atualização na barra só com pendência (disponível, baixando, reinicie), em amarelo — igual ao Gerenciador; falha de rede não aparece mais na barra",
+    "Configurações mais larga; aba Sobre com rótulo e valor alinhados em colunas e o autor no rodapé"
   ]
 }
