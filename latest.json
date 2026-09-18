@@ -1,23 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.5.0",
+  "versao": "0.5.1",
   "canal": "estavel",
-  "publicado_em": "2026-09-18T13:29:33Z",
+  "publicado_em": "2026-09-18T14:21:19Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.5.0.zip",
+    "nome": "NebulaTIR_v0.5.1.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.5.0/NebulaTIR_v0.5.0.zip",
-    "sha256": "248b8e85ea30fe0b604ffa1207d5dd5e5220f966f45142f3611ca83e4881e550",
-    "tamanho": 15590384
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.5.1/NebulaTIR_v0.5.1.zip",
+    "sha256": "96318ec8ff54ae450875b02cb6d1aeb3be0aed09786bd4a1ca0d45c313dc1835",
+    "tamanho": 15595796
   },
   "changelog": [
-    "Ambiente no ar pelo Gerenciador e dividindo a porta com outro (PAR_2510 e PAR_2610 na 4321) volta a ser reaproveitado como instancia 1: quem escuta a porta e o .dyncall.exe da pasta do AppServer, e o desempate acusava \"AppServer de outro ambiente\".",
-    "Executar com o ambiente ja parado no Gerenciador nao mostra mais o aviso \"Nao consegui parar\".",
-    "Botao Diagnostico no painel de log: gera um .zip ao lado do programa com logs, debug, configuracao, ultima corrida (senha mascarada) e print da janela, e abre no Explorer para anexar ao suporte.",
-    "Novo logs/debug-AAAAMMDD.log com o rastro completo: cada clique e campo da tela, cada chamada com argumentos e tempo, cada processo aberto com PID e codigo de saida. O log da tela nao muda; guardado por 14 dias.",
-    "WebApp da release por conta do NebulaTIR: antes de subir cada AppServer (principal ou instancia paralela) confere o webapp.dll e, na 2610, baixa e instala o da familia 26 sozinho. Precisa do Gerenciador que expoe o bloco webapp no canal; ambiente ja no ar com a DLL errada so recebe aviso."
+    "Firefox: o geckodriver passa a ser resolvido como o TIR faz com o ChromeDriver (webdriver_manager, baixado e guardado uma vez), em vez do 0.30.0 de 2021 embutido no TIR; o log do geckodriver vai para a pasta de log da corrida. Se o navegador abrir e o teste nao comecar, o NebulaTIR fecha driver e navegador em vez de deixa-los abertos.",
+    "Diagnostico: lista navegadores instalados com versao, mascara a senha da configuracao importada e inclui o JSON de erro do TIR."
   ]
 }
