@@ -1,21 +1,20 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.6.1",
+  "versao": "0.7.0",
   "canal": "estavel",
-  "publicado_em": "2026-10-09T12:15:34Z",
+  "publicado_em": "2026-10-09T14:38:39Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.6.1.zip",
+    "nome": "NebulaTIR_v0.7.0.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.6.1/NebulaTIR_v0.6.1.zip",
-    "sha256": "c4839cb69cae04cbb6b9cf045f70b8cf190bfd298ef868fe401909ae065b2a36",
-    "tamanho": 14226937
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.7.0/NebulaTIR_v0.7.0.zip",
+    "sha256": "f39ced821ad2bd0f5679c5a4176c7fff8a10ea63654d403a42f292157381ce85",
+    "tamanho": 14239230
   },
   "changelog": [
-    "O NebulaTIR passa a garantir que roda como administrador: se abrir sem elevacao (pelo Gerenciador ou direto), ele mesmo pede o UAC e reabre elevado. Recusando o UAC, avisa e oferece tentar de novo.",
-    "Firefox que abre mas nao cria as abas (erro 740 do Windows, \"requer elevacao\") agora mostra a causa e como corrigir, em vez de so \"Browsing context has been discarded\".",
-    "O Diagnostico passa a informar se o programa estava elevado, quem o abriu e marcas de compatibilidade do NebulaTIR e do Firefox."
+    "Configuracoes: saiu o botao Voltar a versao anterior, que nao era mais usado.",
+    "Estatisticas das corridas: ao fim de cada corrida o NebulaTIR envia para uma planilha online o tempo total, o de cada rotina e o de cada caso, e se ele passou ou falhou. E anonimo (o computador vira \"Computador N\") e nao leva o motivo das falhas. Da para desligar em Configuracoes > Estatisticas; o historico local fica em config\\historico_execucoes.jsonl."
   ]
 }
