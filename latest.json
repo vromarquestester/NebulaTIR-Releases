@@ -1,19 +1,22 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.5.3",
+  "versao": "0.6.0",
   "canal": "estavel",
-  "publicado_em": "2026-09-29T17:51:47Z",
+  "publicado_em": "2026-10-09T11:03:28Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.5.3.zip",
+    "nome": "NebulaTIR_v0.6.0.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.5.3/NebulaTIR_v0.5.3.zip",
-    "sha256": "0e83713e2d7584e499fabcb2035dd07355739ea59e03f70e5a32e90a35f1361d",
-    "tamanho": 14204854
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.6.0/NebulaTIR_v0.6.0.zip",
+    "sha256": "dd7e20b82178c97cd30b56d72a8aacff785cb3d0ec411570567d7df9d75d08c6",
+    "tamanho": 14215422
   },
   "changelog": [
-    "\"Reiniciar agora\" (Reinicie para atualizar) volta a abrir o programa ja atualizado, em vez de mostrar \"ja esta aberto\"."
+    "Casos de teste: agora da para escolher casos individuais dentro de cada rotina (caixa por caso, filtro \"024, 030\", marcar/desmarcar os visiveis). So os marcados rodam, pelos fontes ou pela pasta local.",
+    "Tela mais limpa: o ambiente selecionado ganhou as abas Execucao e Manutencao (banco, RPO, instancias no disco), e as explicacoes sairam da tela para o botao de informacao de cada cartao e para dicas ao parar o mouse.",
+    "\"Restaurar RPO do ambiente\" passa a liberar tambem no modo sequencial, quando ha RPO guardado.",
+    "O botao Executar TIR nao mostra mais a dica antiga \"entra na proxima etapa\"."
   ]
 }
