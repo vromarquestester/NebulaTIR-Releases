@@ -1,20 +1,21 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.7.0",
+  "versao": "0.7.1",
   "canal": "estavel",
-  "publicado_em": "2026-10-09T14:38:39Z",
+  "publicado_em": "2026-10-09T20:04:07Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.7.0.zip",
+    "nome": "NebulaTIR_v0.7.1.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.7.0/NebulaTIR_v0.7.0.zip",
-    "sha256": "f39ced821ad2bd0f5679c5a4176c7fff8a10ea63654d403a42f292157381ce85",
-    "tamanho": 14239230
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.7.1/NebulaTIR_v0.7.1.zip",
+    "sha256": "678fb0cd7e819d1e69c2d920131bf81f04c4bde8bdb32f009db2d34b310b264e",
+    "tamanho": 14240911
   },
   "changelog": [
-    "Configuracoes: saiu o botao Voltar a versao anterior, que nao era mais usado.",
-    "Estatisticas das corridas: ao fim de cada corrida o NebulaTIR envia para uma planilha online o tempo total, o de cada rotina e o de cada caso, e se ele passou ou falhou. E anonimo (o computador vira \"Computador N\") e nao leva o motivo das falhas. Da para desligar em Configuracoes > Estatisticas; o historico local fica em config\\historico_execucoes.jsonl."
+    "Execucao: teste que falha antes de rodar o primeiro caso (WebApp fora do ar, por exemplo) nao deixa mais a corrida aberta para sempre. O Firefox headless que ficava para tras segurando o log e encerrado e a corrida termina sozinha, sem precisar de Abortar.",
+    "Execucao: o ambiente 1 (o pai, de onde saem os clones) e sempre a primeira instancia, em sequencial ou em paralelo. Paralelo sem clone gerado, ou com 1 instancia, roda so no ambiente 1 em vez de dar erro; com N instancias usa o pai e no maximo N-1 clones.",
+    "Execucao: a Url do teste usa a porta do WebApp que o Gerenciador informa. Trocar a porta do ambiente no Gerenciador (ex.: 4321 para 2510) nao manda mais o teste para a porta antiga; o log avisa quando a Url gravada era outra."
   ]
 }
