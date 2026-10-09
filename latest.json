@@ -1,22 +1,21 @@
 {
   "esquema": 1,
   "ferramenta": "NebulaTIR",
-  "versao": "0.6.0",
+  "versao": "0.6.1",
   "canal": "estavel",
-  "publicado_em": "2026-10-09T11:03:28Z",
+  "publicado_em": "2026-10-09T12:15:34Z",
   "obrigatoria": false,
   "minima_suportada": "0.0.0",
   "arquivo": {
-    "nome": "NebulaTIR_v0.6.0.zip",
+    "nome": "NebulaTIR_v0.6.1.zip",
     "exe": "NebulaTIR.exe",
-    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.6.0/NebulaTIR_v0.6.0.zip",
-    "sha256": "dd7e20b82178c97cd30b56d72a8aacff785cb3d0ec411570567d7df9d75d08c6",
-    "tamanho": 14215422
+    "url": "https://github.com/vromarquestester/NebulaTIR-Releases/releases/download/v0.6.1/NebulaTIR_v0.6.1.zip",
+    "sha256": "c4839cb69cae04cbb6b9cf045f70b8cf190bfd298ef868fe401909ae065b2a36",
+    "tamanho": 14226937
   },
   "changelog": [
-    "Casos de teste: agora da para escolher casos individuais dentro de cada rotina (caixa por caso, filtro \"024, 030\", marcar/desmarcar os visiveis). So os marcados rodam, pelos fontes ou pela pasta local.",
-    "Tela mais limpa: o ambiente selecionado ganhou as abas Execucao e Manutencao (banco, RPO, instancias no disco), e as explicacoes sairam da tela para o botao de informacao de cada cartao e para dicas ao parar o mouse.",
-    "\"Restaurar RPO do ambiente\" passa a liberar tambem no modo sequencial, quando ha RPO guardado.",
-    "O botao Executar TIR nao mostra mais a dica antiga \"entra na proxima etapa\"."
+    "O NebulaTIR passa a garantir que roda como administrador: se abrir sem elevacao (pelo Gerenciador ou direto), ele mesmo pede o UAC e reabre elevado. Recusando o UAC, avisa e oferece tentar de novo.",
+    "Firefox que abre mas nao cria as abas (erro 740 do Windows, \"requer elevacao\") agora mostra a causa e como corrigir, em vez de so \"Browsing context has been discarded\".",
+    "O Diagnostico passa a informar se o programa estava elevado, quem o abriu e marcas de compatibilidade do NebulaTIR e do Firefox."
   ]
 }
